@@ -1,0 +1,90 @@
+{
+    "files.defaultLanguage": "powershell",
+    "workbench.colorCustomizations": {
+      "editor.background": "#f4f4f5",
+      "editor.foreground": "#554158",
+      "editorGroup.border": "#d4d4d8",
+      "editorLineNumber.foreground": "#afa6b0",
+      "editor.selectionBackground": "#d4d4d8",
+      "errorForeground": "#f42a2a",
+      "button.background": "#3a3a40",
+      "badge.background": "#848490",
+      "input.background": "#fcfcfd",
+      "input.border": "#d4d4d8",
+      "input.placeholderForeground": "#d4d4d8",
+      "scrollbarSlider.background": "#cfcfd3",
+      "scrollbarSlider.hoverBackground": "#cfcfd3",
+      "statusBar.background": "#e4e4e7",
+      "statusBar.foreground": "#848490",
+      "statusBar.noFolderBackground": "#e4e4e7",
+      "statusBar.debuggingBackground": "#e4e4e7",
+      "statusBar.border": "#d4d4d8",
+      "statusBarItem.prominentBackground": "#f42a2a",
+      "list.activeSelectionBackground": "#d4d4d8",
+      "list.hoverBackground": "#d4d4d8",
+      "list.invalidItemForeground": "#d4d4d8",
+      "activityBar.background": "#d4d4d8",
+      "activityBar.foreground": "#848490",
+      "activityBar.border": "#d4d4d8",
+      "activityBarBadge.background": "#3a3a40",
+      "activityBarBadge.foreground": "#fff",
+      "sideBar.background": "#e4e4e7",
+      "sideBar.foreground": "#5e5e64",
+      "sideBar.border": "#d4d4d8",
+      "sideBarTitle.foreground": "#1d1d20",
+      "editorGroupHeader.tabsBackground": "#e4e4e7",
+      "tab.activeBackground": "#f4f4f5",
+      "tab.activeForeground": "#1d1d20",
+      "tab.border": "#d4d4d8",
+      "tab.activeBorder": "#f4f4f5",
+      "tab.inactiveBackground": "#e4e4e7",
+      "tab.inactiveForeground": "#848490"
+    },
+    "workbench.colorTheme": "Default Light+",
+    "workbench.iconTheme": "material-icon-theme",
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.explorerKind": "external",
+    // "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "terminal.integrated.profiles.windows": {
+      "GitBash": {
+        "path": [
+          "C:\\Users\\pmadai0520\\OneDrive\\ドキュメント\\WindowsPowerShell\\MIT-WK\\tools\\PortableGit\\bin\\bash.exe"
+        ],
+        "args": ["-l"],
+        "icon": "terminal-bash"
+      },
+      "PowerShell": {
+        "source": "PowerShell",
+        "icon": "terminal-powershell"
+      },
+      "Command Prompt": {
+        "path": [
+          "${env:windir}\\Sysnative\\cmd.exe",
+          "${env:windir}\\System32\\cmd.exe"
+        ],
+        "args": [],
+        "icon": "terminal-cmd"
+      }
+    },
+    "terminal.integrated.defaultProfile.windows": "GitBash",
+    "editor.columnSelection": true,
+    "extensions.autoUpdate": false,
+    "files.autoGuessEncoding": true,
+    "diffEditor.renderSideBySide": false,
+    "powershell.promptToUpdatePowerShell": false,
+    "files.autoSave": "afterDelay",
+    "files.associations": {
+      "*.html": "html"
+    },
+    "workbench.startupEditor": "none",
+    "window.commandCenter": true,
+    "python.analysis.extraPaths": [
+      "${workspaceFolder}/2nensei-scraping-env/Lib/site-packages"
+    ],
+    "vscode_qiitaapi.accesstoken": "0baf9cfc342b30a735852d3d43fc4e3f187ebe08"
+    // "python.venvFolders": [
+    //   "envs",
+    //   ".pyenv",
+    //   ".direnv"
+    // ]
+  }
