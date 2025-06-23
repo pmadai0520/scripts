@@ -1,0 +1,16 @@
+項番,機能概要,設定変更が必要なパラメータ,設定変更が必要なパラメータの値,GPO/ADMXのパス,Intune構成プロファイル名/カテゴリ
+1,マクロの実行制御,VBA Macro Notification Settings,Disable all with notification,ユーザー構成\管理用テンプレート\Microsoft Office 2016\セキュリティ設定\マクロ,Microsoft Office セキュリティ設定
+2,信頼できない場所からのマクロ制御,Block macros from running in Office files from the Internet,Enabled,ユーザー構成\管理用テンプレート\Microsoft Office 2016\セキュリティ設定\信頼センター,Microsoft Office セキュリティ設定
+3,外部コンテンツ制御,Allow automatic download of Internet content,Disabled,ユーザー構成\管理用テンプレート\Microsoft Office 2016\Common\Security\信頼センター,Office クラウドポリシーサービス
+4,ActiveX コントロールの制御,Initialize and script ActiveX controls not marked as safe,Disabled,ユーザー構成\管理用テンプレート\Microsoft Excel 2016\Excel オプション\Security,Office セキュリティ設定
+5,COMアドイン制御,Turn off COM add-ins,Enabled,ユーザー構成\管理用テンプレート\Microsoft Office 2016\Common\アドイン,Office セキュリティ設定
+6,クラウドファイル保存制御,Use Online Services,Disabled（必要に応じて）,ユーザー構成\管理用テンプレート\Microsoft Office 2016\Common\Office クラウドポリシー,Office クラウドポリシーサービス
+7,ファイルブロック設定,Open/Save blocked file types,Block legacy formats,ユーザー構成\管理用テンプレート\Microsoft Word 2016\Word オプション\Security\ファイルブロック設定,Office ファイルブロック設定
+8,IRMsの有効化,Enable Information Rights Management,Enabled,ユーザー構成\管理用テンプレート\Microsoft Office 2016\Common\DRM,Microsoft Office セキュリティ設定
+9,OneDrive自動保存,AutoSave to OneDrive,Disabled,ユーザー構成\管理用テンプレート\Microsoft Office 2016\Common\保存,OneDrive 設定制御
+10,セーフビューの設定,Enable Protected View for files from the Internet,Enabled,ユーザー構成\管理用テンプレート\Microsoft Word 2016\Word オプション\Security\セーフビュー,Microsoft Office セキュリティ設定
+11,Application Guardの有効化,Enable Application Guard,Enabled,ユーザー構成\管理用テンプレート\Windows コンポーネント\Application Guard,Windows Defender Application Guard
+12,古い暗号化の制限,Use modern encryption for password-protected Office files,Enabled,ユーザー構成\管理用テンプレート\Microsoft Office 2016\Common\Security,Microsoft Office セキュリティ設定
+13,Office Script制御（Excel用）,Allow Office Scripts to run,Disabled,ユーザー構成\管理用テンプレート\Microsoft Excel 2016\Excel オプション\自動化,Microsoft Excel セキュリティ設定
+14,テンプレートの制限,Block downloading templates from Office.com,Enabled,ユーザー構成\管理用テンプレート\Microsoft Office 2016\Common\Office クラウドポリシー,Office クラウドポリシーサービス
+15,「共有アイテム」機能の制御,Disable Shared with Me feature,Enabled,ユーザー構成\管理用テンプレート\Microsoft Office 2016\Common\共有,Office クラウドポリシーサービス
