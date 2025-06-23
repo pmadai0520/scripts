@@ -46,13 +46,6 @@
     "terminal.explorerKind": "external",
     // "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
     "terminal.integrated.profiles.windows": {
-      "GitBash": {
-        "path": [
-          "C:\\Users\\pmadai0520\\OneDrive\\ドキュメント\\WindowsPowerShell\\MIT-WK\\tools\\PortableGit\\bin\\bash.exe"
-        ],
-        "args": ["-l"],
-        "icon": "terminal-bash"
-      },
       "PowerShell": {
         "source": "PowerShell",
         "icon": "terminal-powershell"
@@ -66,7 +59,6 @@
         "icon": "terminal-cmd"
       }
     },
-    "terminal.integrated.defaultProfile.windows": "GitBash",
     "editor.columnSelection": true,
     "extensions.autoUpdate": false,
     "files.autoGuessEncoding": true,
@@ -78,9 +70,6 @@
     },
     "workbench.startupEditor": "none",
     "window.commandCenter": true,
-    "python.analysis.extraPaths": [
-      "${workspaceFolder}/2nensei-scraping-env/Lib/site-packages"
-    ],
     "vscode_qiitaapi.accesstoken": "0baf9cfc342b30a735852d3d43fc4e3f187ebe08"
     // "python.venvFolders": [
     //   "envs",
